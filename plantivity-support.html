@@ -8,7 +8,400 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizin<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Plantivity</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #fef7e5;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #f5ebd7;
+            padding: 50px 40px;
+            border-radius: 28px;
+            border: 2px solid white;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        
+        .logo {
+            width: 62px;
+            height: 62px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, #78c864 0%, #5aaa46 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 22px;
+            box-shadow: 0 6px 18px rgba(120,200,100,0.16);
+        }
+
+        h1 {
+            color: #78c864;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            letter-spacing: -0.5px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            font-size: 14px;
+            margin-top: 6px;
+        }
+        
+        h2 {
+            color: #5aaa46;
+            font-size: 26px;
+            font-weight: 600;
+            margin-top: 36px;
+            margin-bottom: 18px;
+        }
+        
+        h3 {
+            color: #5aaa46;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            margin-bottom: 14px;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.7;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 18px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        strong {
+            color: #5aaa46;
+            font-weight: 600;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 28px;
+            align-items: start;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.6);
+            border-radius: 16px;
+            padding: 18px;
+            border: 1px solid rgba(255,255,255,0.8);
+            margin-bottom: 26px;
+        }
+        
+        .contact {
+            background: #f5ebd7;
+            padding: 20px;
+            border-radius: 20px;
+            border: 2px solid white;
+            margin-top: 18px;
+        }
+
+        .contact p {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: #78c864;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-list summary {
+            cursor: pointer;
+            padding: 12px 14px;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.7);
+            border: 1px solid rgba(255,255,255,0.9);
+            font-weight: 600;
+            color: #355a2f;
+        }
+
+        details {
+            margin-bottom: 12px;
+        }
+
+        .small {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #78c864;
+            box-shadow: 0 2px 8px rgba(120,200,100,0.18);
+        }
+
+        footer {
+            margin-top: 28px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 920px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 24px;
+                border-radius: 24px;
+            }
+            
+            h1 {
+                font-size: 32px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+
+            .logo { width: 54px; height: 54px; font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="logo">P</div>
+                <div>
+                    <h1>Support</h1>
+                    <div class="subtitle">Help & Resources for Plantivity</div>
+                    <div class="last-updated">Last Updated: November 2025</div>
+                </div>
+            </div>
+            <div class="contact small">
+                <p><strong>Quick Contact</strong></p>
+                <p>Email: <a href="mailto:plantivity.app@gmail.com">plantivity.app@gmail.com</a></p>
+                <p>Website: <a href="https://bekiroski-studios.github.io/Plantivity/plantivity-support.html">bekiroski-studios.github.io/Plantivity</a></p>
+            </div>
+        </header>
+
+        <p>Welcome to the Plantivity Support Center. Here you’ll find answers to common questions, troubleshooting help, and ways to contact us.</p>
+
+        <div class="grid">
+            <main>
+                <section class="card">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-list">
+
+                        <details>
+                            <summary>How does Plantivity store my data?</summary>
+                            <div style="padding:12px 14px;">
+                                <p class="small">Plantivity stores all data entirely on your device. We do not collect, upload, or transmit any personal or usage data. Everything remains offline.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>Does Plantivity sync data across devices?</summary>
+                            <div style="padding:12px 14px;">
+                                <p class="small">No. Plantivity does not support multi-device sync or cloud storage. All progress and settings stay on the device where they were created.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>Why does the app ask for Screen Time permissions?</summary>
+                            <div style="padding:12px 14px;">
+                                <p class="small">Screen Time access is required for blocking distracting apps during focus sessions. Plantivity cannot see your usage history, app activity, notifications, or personal data. The permission is used only to block apps you select.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>How do I cancel my subscription?</summary>
+                            <div style="padding:12px 14px;">
+                                <p class="small">Subscriptions are managed by Apple through the App Store. Go to your App Store account → Subscriptions → Plantivity → Cancel. Your premium access remains active until the end of the billing period.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>My premium features aren’t unlocking. What should I do?</summary>
+                            <div style="padding:12px 14px;">
+                                <p class="small">
+                                    Try the following:<br><br>
+                                    • Open Plantivity → Settings → Restore Purchase<br>
+                                    • Ensure you are logged in with the same Apple ID you used to subscribe<br>
+                                    • Restart the app<br>
+                                    • Restart your device<br><br>
+                                    If the issue persists, please contact support with your Apple receipt.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>What information should I include when reporting an issue?</summary>
+                            <div style="padding:12px 14px;">
+                                <p class="small">
+                                    To help us solve issues quickly, please include:<br><br>
+                                    • A clear description of the problem<br>
+                                    • Steps to reproduce it<br>
+                                    • Your device model<br>
+                                    • iOS version<br>
+                                    • Plantivity app version<br>
+                                    • Screenshots (if relevant)
+                                </p>
+                            </div>
+                        </details>
+
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2>Troubleshooting</h2>
+                    <h3>App won’t start / crashes</h3>
+                    <ul>
+                        <li>Fully close and reopen the app.</li>
+                        <li>Update iOS and Plantivity to the latest version.</li>
+                        <li>Restart your device.</li>
+                        <li>Reinstall the app (this resets local data).</li>
+                    </ul>
+
+                    <h3>App blocking is not working</h3>
+                    <ul>
+                        <li>Check Screen Time permissions in iOS Settings.</li>
+                        <li>Make sure selected apps are allowed to be blocked.</li>
+                        <li>Restart your device after enabling permissions.</li>
+                    </ul>
+
+                    <h3>Premium features aren't available after purchase</h3>
+                    <ul>
+                        <li>Tap "Restore Purchase" inside Plantivity.</li>
+                        <li>Verify your Apple ID is the same used for the purchase.</li>
+                        <li>Restart the app.</li>
+                    </ul>
+
+                    <p class="meta">If problems continue, feel free to contact us via email.</p>
+                </section>
+
+                <section class="card">
+                    <h2>User Guides</h2>
+                    <ul>
+                        <li><strong>Getting Started:</strong> Learn how to start your first focus session.</li>
+                        <li><strong>Blocking Apps:</strong> Choose which apps to block during focus time.</li>
+                        <li><strong>Subscription:</strong> Activate and restore your premium access.</li>
+                        <li><strong>Local Data:</strong> Understand how Plantivity stores your progress.</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h2>Community & Feedback</h2>
+                    <p>We welcome suggestions, ideas, and feature requests!</p>
+                    <ul>
+                        <li><strong>Feature Requests:</strong> Email us anytime.</li>
+                        <li><strong>Feedback:</strong> Help us improve Plantivity.</li>
+                        <li><strong>Beta Program:</strong> Coming soon.</li>
+                    </ul>
+                </section>
+            </main>
+
+            <aside>
+                <div class="card">
+                    <h2>System Status</h2>
+                    <div class="status">
+                        <div class="status-dot"></div>
+                        <div>
+                            <p><strong>All systems operational</strong></p>
+                            <p class="small">No known issues</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Contact</h3>
+                    <div class="contact small">
+                        <p><strong>Email:</strong> <a href="mailto:plantivity.app@gmail.com">plantivity.app@gmail.com</a></p>
+                        <p><strong>Website:</strong> <a href="https://bekiroski-studios.github.io/Plantivity/plantivity-support.html">bekiroski-studios.github.io/Plantivity</a></p>
+                        <p class="small">Typical response time: within 48 hours.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>© Plantivity — Your data stays on your device. Always.</p>
+        </footer>
+    </div>
+</body>
+</html>g: border-box;
         }
         
         body {
